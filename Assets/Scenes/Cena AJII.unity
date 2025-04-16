@@ -836,7 +836,7 @@ Transform:
   m_GameObject: {fileID: 1055713044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.917, y: -3.782, z: 0}
+  m_LocalPosition: {x: 6.3, y: -3.44, z: 0}
   m_LocalScale: {x: 0.70319945, y: 1.0576373, z: 1.7373157}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 1117792265}
   - component: {fileID: 1117792264}
   m_Layer: 0
-  m_Name: "Fuma\xE7a"
+  m_Name: Fagulha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,7 +872,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.13, y: 0.47644424, z: -0.016990403}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4284904, y: 1.4284904, z: 1.1814555}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 604257780}
@@ -945,7 +945,7 @@ ParticleSystemRenderer:
   m_VertexStreams: 00010304
   m_UseCustomTrailVertexStreams: 0
   m_TrailVertexStreams: 00010304
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -962,14 +962,14 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117792262}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 0.2
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -1037,7 +1037,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 0.2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1090,7 +1090,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 20
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1144,7 +1144,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.9433962, g: 0.74648404, b: 0.12014952, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1208,7 +1208,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1586,7 +1586,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 45
+    angle: 10
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -1791,7 +1791,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -6460,7 +6460,7 @@ Transform:
   m_GameObject: {fileID: 1898891172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.85, y: -2.9, z: 0}
+  m_LocalPosition: {x: 7.55, y: -2.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
