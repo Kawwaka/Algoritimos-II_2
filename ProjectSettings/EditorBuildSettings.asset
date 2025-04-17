@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena AJII.unity
     guid: 5e71ef93bd4c64a44ab524cd14c6dc23
+  - enabled: 1
+    path: Assets/Scenes/CenaTeste.unity
+    guid: 00a89a5e47d95cc438f4067c8c4f3ca6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
